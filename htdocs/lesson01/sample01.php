@@ -7,7 +7,7 @@
 </head>
 <body>
   <?php
-  echo 'PHPを勉強中です'
+  echo 'PHPを勉強中です';
   ?>
 </body>
 </html>

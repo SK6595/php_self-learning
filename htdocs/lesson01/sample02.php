@@ -7,7 +7,7 @@
 </head>
 <body>
   <?php
-  echo "I'm \"studying\"";
+  echo 'I'm studying';
   ?>
 </body>
 </html>
