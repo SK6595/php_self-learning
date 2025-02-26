@@ -1,4 +1,9 @@
 <?php
 $xmlTree = simplexml_load_file('rss.xml');
-echo $xmlTree->channel->title;
+foreach ($xmlTree->channel->item as $item) {
+?> 
+・<a href="<?php echo $item->link; ?>"><?php echo $item->title; ?></a><br>
+<?php
+}
+echo $xmlTree->channel->item[1]->title;
 ?>
