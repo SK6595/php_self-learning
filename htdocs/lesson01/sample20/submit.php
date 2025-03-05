@@ -6,8 +6,8 @@
   <title>sample20</title>
 </head>
 <body>
-    <?php if (!empty($_REQUEST['my_name'])): ?>
-      <p>お名前: <?php echo htmlspecialchars($_REQUEST['my_name'], ENT_QUOTES); ?></p>
+    <?php if (!empty($_REQUEST['my-name'])): ?>
+      <p>お名前: <?php echo htmlspecialchars($_REQUEST['my-name'], ENT_QUOTES); ?></p>
     <?php endif; ?>
 </body>
 </html>
