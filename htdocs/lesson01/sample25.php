@@ -8,7 +8,7 @@
 <body>
     <table>
         <?php for ($i = 1; $i <= 10; $i++) : ?>
-            <?php if ($i % 2 === 1): ?>
+            <?php if ($i % 2): ?>
                 <tr style="background-color: #ccc">
             <?php else: ?>
                 <tr>
