@@ -1,1 +1,1 @@
-# php_self-learning
+PHPの自己学習用リポジトリ
